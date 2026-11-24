@@ -1,0 +1,7531 @@
+{
+ "sourceLanguage": "en",
+ "strings": {
+  "%1$@: %2$@": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@ : %2$@"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@：%2$@"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@: %2$@"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@：%2$@"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%1$@：%2$@"
+     }
+    }
+   }
+  },
+  "Adapter": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "المحول"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Adaptador"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Adaptér"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Strømforsyning"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Netzteil"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Τροφοδοτικό"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Adapter"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Adaptador"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Virtalähde"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Adaptateur"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "מתאם"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "अडैप्टर"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Adapter"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Adapter"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Adaptor"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Alimentatore"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "電源アダプタ"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "전원 어댑터"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Penyesuai"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Strømforsyning"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Adapter"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Zasilacz"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Adaptador"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Adaptador"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Adaptor"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Адаптер"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Adaptér"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Napajalnik"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Strömadapter"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "อะแดปเตอร์"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Adaptör"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Адаптер"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bộ sạc"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "电源适配器"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "電源轉接器"
+     }
+    }
+   }
+  },
+  "Automatic": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "تلقائي"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Automàtic"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Automaticky"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Automatisk"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Automatisch"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Αυτόματα"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Automatic"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Automático"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Automaattinen"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Automatique"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "אוטומטי"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "ऑटोमैटिक"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Automatski"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Automatikus"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Otomatis"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Automatico"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "自動"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "자동"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Automatik"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Automatisk"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Automatisch"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Automatycznie"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Automático"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Automático"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Automat"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Автоматически"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Automaticky"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Samodejno"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Automatiskt"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "อัตโนมัติ"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Otomatik"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Автоматично"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tự động"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "自动"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "自動"
+     }
+    }
+   }
+  },
+  "Battery": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "البطارية"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bateria"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Baterie"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batteri"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batterie"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Μπαταρία"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Battery"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batería"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Akku"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batterie"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "סוללה"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "बैटरी"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Baterija"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Akkumulátor"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Baterai"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batteria"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "バッテリー"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "배터리"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bateri"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batteri"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batterij"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bateria"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bateria"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bateria"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Baterie"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Батарея"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batéria"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Baterija"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batteri"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "แบตเตอรี่"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Pil"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Акумулятор"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Pin"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "电池"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "電池"
+     }
+    }
+   }
+  },
+  "Battery charging": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "البطارية قيد الشحن"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "La bateria es carrega"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Baterie se nabíjí"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batteriet oplades"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batterie wird geladen"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Η μπαταρία φορτίζεται"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Battery charging"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "La batería se está cargando"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Akku latautuu"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batterie en charge"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "הסוללה נטענת"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "बैटरी चार्ज हो रही है"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Baterija se puni"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Az akkumulátor töltődik"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Baterai sedang diisi"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batteria in carica"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "バッテリー充電中"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "배터리 충전 중"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bateri sedang dicas"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batteriet lades"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batterij wordt opgeladen"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bateria się ładuje"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bateria carregando"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bateria a carregar"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bateria se încarcă"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Батарея заряжается"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batéria sa nabíja"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Baterija se polni"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batteriet laddas"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "กำลังชาร์จแบตเตอรี่"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Pil şarj oluyor"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Заряджається"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Pin đang sạc"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "电池正在充电"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "電池充電中"
+     }
+    }
+   }
+  },
+  "Battery discharging": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "البطارية قيد التفريغ"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "La bateria es descarrega"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Baterie se vybíjí"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batteriet aflades"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batterie wird entladen"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Η μπαταρία αποφορτίζεται"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Battery discharging"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "La batería se está descargando"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Akku purkautuu"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batterie en décharge"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "הסוללה מתרוקנת"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "बैटरी डिस्चार्ज हो रही है"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Baterija se prazni"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Az akkumulátor merül"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Baterai sedang terpakai"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batteria in scarica"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "バッテリー放電中"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "배터리 방전 중"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bateri sedang dinyahcas"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batteriet lades ut"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batterij wordt ontladen"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bateria się rozładowuje"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bateria descarregando"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bateria a descarregar"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bateria se descarcă"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Батарея разряжается"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batéria sa vybíja"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Baterija se prazni"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batteriet laddas ur"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "กำลังใช้แบตเตอรี่"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Pil boşalıyor"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Розряджається"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Pin đang xả"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "电池正在放电"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "電池放電中"
+     }
+    }
+   }
+  },
+  "Battery idle": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "البطارية خاملة"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bateria en repòs"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Baterie v klidu"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batteriet er i hvile"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batterie im Ruhezustand"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Η μπαταρία είναι αδρανής"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Battery idle"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batería en reposo"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Akku levossa"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batterie au repos"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "הסוללה במנוחה"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "बैटरी निष्क्रिय है"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Baterija miruje"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Az akkumulátor nyugalomban"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Baterai diam"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batteria a riposo"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "バッテリー待機中"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "배터리 대기 중"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bateri melahu"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batteriet er i hvile"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batterij in rust"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bateria w spoczynku"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bateria em repouso"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bateria em repouso"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Baterie în repaus"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Батарея в покое"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batéria v pokoji"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Baterija miruje"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batteriet vilar"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "แบตเตอรี่ไม่ได้ใช้งาน"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Pil boşta"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "У спокої"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Pin đang nghỉ"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "电池闲置"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "電池閒置"
+     }
+    }
+   }
+  },
+  "Charge": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "الشحن"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Càrrega"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Nabití"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Opladning"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ladestand"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Φόρτιση"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Charge"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Carga"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Varaus"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Charge"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "טעינה"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "चार्ज"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Napunjenost"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Töltöttség"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Daya"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Carica"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "残量"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "잔량"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Cas"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Lading"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Lading"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Naładowanie"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Carga"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Carga"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Încărcare"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Заряд"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Nabitie"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Napolnjenost"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Laddning"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "ประจุ"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Şarj"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Заряд"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mức pin"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "电量"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "電量"
+     }
+    }
+   }
+  },
+  "Chart": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "الرسم البياني"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Gràfic"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Graf"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Diagram"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Diagramm"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Γράφημα"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Chart"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Gráfico"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Kaavio"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Graphique"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "גרף"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "चार्ट"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Grafikon"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Grafikon"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Grafik"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Grafico"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "グラフ"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "차트"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Carta"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Diagram"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Grafiek"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Wykres"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Gráfico"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Gráfico"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Grafic"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "График"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Graf"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Grafikon"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Diagram"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "แผนภูมิ"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Grafik"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Графік"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Biểu đồ"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "图表"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "圖表"
+     }
+    }
+   }
+  },
+  "General": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "عام"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "General"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Obecné"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Generelt"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Allgemein"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Γενικά"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "General"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "General"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Yleiset"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Général"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "כללי"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "सामान्य"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Općenito"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Általános"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Umum"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Generali"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "一般"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "일반"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Umum"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Generelt"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Algemeen"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ogólne"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Geral"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Geral"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "General"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Основные"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Všeobecné"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Splošno"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Allmänt"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "ทั่วไป"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Genel"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Загальні"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Chung"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "通用"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "一般"
+     }
+    }
+   }
+  },
+  "Icon": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "الأيقونة"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Icona"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ikona"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Symbol"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Symbol"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Εικονίδιο"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Icon"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Icono"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Kuvake"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Icône"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "סמל"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "आइकॉन"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ikona"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ikon"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ikon"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Icona"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "アイコン"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "아이콘"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ikon"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Symbol"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Symbool"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ikona"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ícone"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ícone"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Iconiță"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Иконка"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ikona"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ikona"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Symbol"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "ไอคอน"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Simge"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Іконка"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Biểu tượng"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "图标"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "圖像"
+     }
+    }
+   }
+  },
+  "Last hour": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "الساعة الأخيرة"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Última hora"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Poslední hodina"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Seneste time"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Letzte Stunde"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Τελευταία ώρα"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Last hour"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Última hora"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Viime tunti"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Dernière heure"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "השעה האחרונה"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "पिछला घंटा"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Zadnji sat"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Utolsó óra"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Satu jam terakhir"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ultima ora"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "過去1時間"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "지난 1시간"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Sejam lalu"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Siste time"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Afgelopen uur"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ostatnia godzina"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Última hora"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Última hora"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ultima oră"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Последний час"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Posledná hodina"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Zadnja ura"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Senaste timmen"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "ชั่วโมงที่ผ่านมา"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Son bir saat"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Остання година"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Một giờ qua"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "过去一小时"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "過去一小時"
+     }
+    }
+   }
+  },
+  "Mac": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mac"
+     }
+    }
+   }
+  },
+  "Menu Bar": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "شريط القوائم"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Barra de menús"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Řádek nabídek"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Menulinje"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Menüleiste"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Γραμμή μενού"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Menu Bar"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Barra de menús"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Valikkorivi"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Barre des menus"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "שורת התפריטים"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "मेनू बार"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Traka izbornika"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Menüsor"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bar menu"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Barra dei menu"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "メニューバー"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "메뉴 막대"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bar menu"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Menylinje"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Menubalk"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Pasek menu"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Barra de menus"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Barra de menus"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bară de meniu"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Строка меню"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Lišta"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Menijska vrstica"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Menyrad"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "แถบเมนู"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Menü çubuğu"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Смуга меню"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Thanh menu"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "菜单栏"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "選單列"
+     }
+    }
+   }
+  },
+  "No data": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "لا توجد بيانات"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Sense dades"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Žádná data"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ingen data"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Keine Daten"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Δεν υπάρχουν δεδομένα"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "No data"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Sin datos"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ei tietoja"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Aucune donnée"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "אין נתונים"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "कोई डेटा नहीं"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Nema podataka"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Nincs adat"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tidak ada data"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Nessun dato"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "データなし"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "데이터 없음"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tiada data"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ingen data"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Geen gegevens"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Brak danych"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Sem dados"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Sem dados"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Nu există date"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Нет данных"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Žiadne dáta"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ni podatkov"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Inga data"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "ไม่มีข้อมูล"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Veri yok"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Немає даних"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Không có dữ liệu"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "无数据"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "無資料"
+     }
+    }
+   }
+  },
+  "Not connected": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "غير متصل"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "No connectat"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Nepřipojeno"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ikke tilsluttet"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Nicht verbunden"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Μη συνδεδεμένο"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Not connected"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "No conectado"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ei kytketty"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Non connecté"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "לא מחובר"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "कनेक्टेड नहीं"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Nije spojeno"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Nincs csatlakoztatva"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tidak terhubung"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Non connesso"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "未接続"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "연결되지 않음"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tidak disambungkan"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ikke tilkoblet"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Niet aangesloten"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Niepodłączony"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Não conectado"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Não ligado"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Neconectat"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Не подключён"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Nepripojené"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ni povezano"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Inte ansluten"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "ไม่ได้เชื่อมต่อ"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bağlı değil"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Не підключено"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Chưa kết nối"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "未连接"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "未連接"
+     }
+    }
+   }
+  },
+  "Open at Login": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "فتح عند تسجيل الدخول"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Obrir en iniciar la sessió"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Otevřít při přihlášení"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Åbn ved login"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bei der Anmeldung öffnen"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Άνοιγμα κατά τη σύνδεση"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Open at Login"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Abrir al iniciar sesión"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Avaa kirjauduttaessa"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ouvrir à la connexion"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "פתיחה בהתחברות"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "लॉगिन पर खोलें"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Otvori pri prijavi"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Megnyitás bejelentkezéskor"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Buka saat masuk"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Apri al login"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "ログイン時に開く"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "로그인 시 열기"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Buka semasa log masuk"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Åpne ved pålogging"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Open bij inloggen"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Otwieraj podczas logowania"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Abrir ao iniciar sessão"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Abrir ao iniciar sessão"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Deschide la login"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Открывать при входе"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Otvoriť pri prihlásení"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Odpri ob prijavi"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Öppna vid inloggning"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "เปิดเมื่อเข้าสู่ระบบ"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Girişte aç"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Відкривати під час входу"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mở khi đăng nhập"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "登录时打开"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "登入時打開"
+     }
+    }
+   }
+  },
+  "Overview": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "نظرة عامة"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Resum"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Přehled"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Oversigt"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Übersicht"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Επισκόπηση"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Overview"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Resumen"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Yleiskatsaus"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Vue d’ensemble"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "סקירה"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "ओवरव्यू"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Pregled"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Áttekintés"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ikhtisar"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panoramica"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "概要"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "개요"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Gambaran keseluruhan"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Oversikt"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Overzicht"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Przegląd"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Visão geral"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Visão geral"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Prezentare generală"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Обзор"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Prehľad"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Pregled"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Översikt"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "ภาพรวม"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Genel Bakış"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Огляд"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tổng quan"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "概览"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "概覽"
+     }
+    }
+   }
+  },
+  "Panel": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "اللوحة"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tauler"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Πίνακας"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Paneeli"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panneau"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "לוח"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "पैनल"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ploča"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Pannello"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "パネル"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "패널"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Paneel"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Painel"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Painel"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panou"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Панель"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Plošča"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "แผง"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Панель"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bảng"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "面板"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "面板"
+     }
+    }
+   }
+  },
+  "Panel above all windows": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "اللوحة فوق كل النوافذ"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tauler sobre totes les finestres"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel nad všemi okny"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel over alle vinduer"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel über allen Fenstern"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Πίνακας πάνω από όλα τα παράθυρα"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel above all windows"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel sobre todas las ventanas"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Paneeli kaikkien ikkunoiden päällä"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panneau au-dessus des fenêtres"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "לוח מעל כל החלונות"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "सभी विंडो के ऊपर पैनल"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ploča iznad svih prozora"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel minden ablak felett"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel di atas semua jendela"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Pannello sopra tutte le finestre"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "パネルを常に手前に表示"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "패널을 모든 윈도우 위에 표시"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel di atas semua tetingkap"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel over alle vinduer"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Paneel boven alle vensters"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel nad wszystkimi oknami"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Painel acima de todas as janelas"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Painel por cima de todas as janelas"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panou deasupra tuturor ferestrelor"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Панель поверх всех окон"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel nad všetkými oknami"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Plošča nad vsemi okni"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel ovanför alla fönster"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "แผงอยู่เหนือทุกหน้าต่าง"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel tüm pencerelerin üstünde"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Панель поверх усіх вікон"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bảng trên mọi cửa sổ"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "面板置于所有窗口之上"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "面板置於所有視窗之上"
+     }
+    }
+   }
+  },
+  "Panel on desktop": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "لوحة على سطح المكتب"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tauler a l’escriptori"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel na ploše"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel på skrivebordet"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel auf dem Schreibtisch"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Πίνακας στο γραφείο εργασίας"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel on desktop"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel en el escritorio"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Paneeli työpöydällä"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panneau sur le bureau"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "לוח על שולחן העבודה"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "डेस्कटॉप पर पैनल"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ploča na radnoj površini"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel az íróasztalon"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel di desktop"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Pannello sulla scrivania"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "デスクトップにパネルを表示"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "데스크탑에 패널 표시"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel pada desktop"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel på skrivebordet"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Paneel op bureaublad"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel na biurku"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Painel na mesa"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Painel na secretária"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panou pe desktop"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Панель на рабочем столе"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel na ploche"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Plošča na namizju"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Panel på skrivbordet"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "แผงบนเดสก์ท็อป"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Masaüstünde panel"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Панель на робочому столі"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bảng trên màn hình nền"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "在桌面显示面板"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "在桌面顯示面板"
+     }
+    }
+   }
+  },
+  "Power": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "الطاقة"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Potència"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Výkon"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Effekt"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Leistung"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ισχύς"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Power"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Potencia"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Teho"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Puissance"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "הספק"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "पावर"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Snaga"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Teljesítmény"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Daya"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Potenza"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "電力"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "전력"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Kuasa"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Effekt"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Vermogen"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Moc"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Potência"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Potência"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Putere"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Мощность"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Výkon"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Moč"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Effekt"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "กำลังไฟ"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Güç"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Потужність"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Công suất"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "功率"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "功率"
+     }
+    }
+   }
+  },
+  "Quit": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "إنهاء"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Sortir"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ukončit"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Slut"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Beenden"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Τερματισμός"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Quit"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Salir"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Lopeta"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Quitter"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "סיום"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "बंद करें"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Zatvori"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Kilépés"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Keluar"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Esci"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "終了"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "종료"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Keluar"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Avslutt"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Stop"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Zakończ"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Encerrar"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Sair"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Închide"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Выйти"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ukončiť"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Končaj"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Avsluta"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "ออก"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Çık"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Вийти"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Thoát"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "退出"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "結束"
+     }
+    }
+   }
+  },
+  "Refresh": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "تحديث"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Actualitza"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Obnovit"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Opdater"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Aktualisieren"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ανανέωση"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Refresh"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Actualizar"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Päivitä"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Actualiser"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "רענון"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "रीफ़्रेश करें"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Osvježi"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Frissítés"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Segarkan"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Aggiorna"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "更新"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "새로 고침"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Segar semula"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Oppdater"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Vernieuw"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Odśwież"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Atualizar"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Atualizar"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Reîmprospătează"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Обновить"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Obnoviť"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Osveži"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Uppdatera"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "รีเฟรช"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Yenile"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Оновити"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Làm mới"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "刷新"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "重新整理"
+     }
+    }
+   }
+  },
+  "Remaining": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "المتبقي"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Restant"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Zbývá"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tilbage"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Verbleibend"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Απομένει"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Remaining"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Restante"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Jäljellä"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Restant"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "נותר"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "शेष"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Preostalo"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Hátralévő"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tersisa"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Rimanente"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "残り"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "남은 시간"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Baki"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Gjenstår"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Resterend"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Pozostało"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Restante"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Restante"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Rămas"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Осталось"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Zostáva"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Preostalo"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Återstår"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "เหลือ"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Kalan"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Залишилось"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Còn lại"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "剩余"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "剩餘"
+     }
+    }
+   }
+  },
+  "Settings…": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "الإعدادات…"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Configuració…"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Nastavení…"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Indstillinger…"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Einstellungen …"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ρυθμίσεις…"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Settings…"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ajustes…"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Asetukset…"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Réglages…"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "הגדרות…"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "सेटिंग…"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Postavke…"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Beállítások…"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Pengaturan…"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Impostazioni…"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "設定…"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "설정…"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Seting…"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Innstillinger…"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Instellingen…"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ustawienia…"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ajustes…"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Definições…"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Configurări…"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Настройки…"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Nastavenia…"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Nastavitve…"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Inställningar…"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "การตั้งค่า…"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ayarlar…"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Параметри…"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Cài đặt…"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "设置…"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "設定…"
+     }
+    }
+   }
+  },
+  "Show chart": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "إظهار الرسم البياني"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mostra el gràfic"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Zobrazit graf"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Vis diagram"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Diagramm anzeigen"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Εμφάνιση γραφήματος"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Show chart"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mostrar gráfico"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Näytä kaavio"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Afficher le graphique"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "הצגת גרף"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "चार्ट दिखाएँ"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Prikaži grafikon"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Grafikon megjelenítése"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tampilkan grafik"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mostra grafico"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "グラフを表示"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "차트 표시"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tunjukkan carta"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Vis diagram"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Toon grafiek"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Pokaż wykres"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mostrar gráfico"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mostrar gráfico"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Afișează graficul"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Показывать график"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Zobraziť graf"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Pokaži grafikon"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Visa diagram"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "แสดงแผนภูมิ"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Grafiği göster"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Показувати графік"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Hiển thị biểu đồ"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "显示图表"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "顯示圖表"
+     }
+    }
+   }
+  },
+  "Show icon": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "إظهار الأيقونة"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mostra la icona"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Zobrazit ikonu"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Vis symbol"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Symbol anzeigen"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Εμφάνιση εικονιδίου"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Show icon"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mostrar icono"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Näytä kuvake"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Afficher l’icône"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "הצגת סמל"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "आइकॉन दिखाएँ"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Prikaži ikonu"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ikon megjelenítése"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tampilkan ikon"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mostra icona"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "アイコンを表示"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "아이콘 표시"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tunjukkan ikon"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Vis symbol"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Toon symbool"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Pokaż ikonę"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mostrar ícone"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mostrar ícone"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Afișează iconița"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Показывать иконку"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Zobraziť ikonu"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Pokaži ikono"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Visa symbol"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "แสดงไอคอน"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Simgeyi göster"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Показувати іконку"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Hiển thị biểu tượng"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "显示图标"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "顯示圖像"
+     }
+    }
+   }
+  },
+  "Show update time": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "إظهار وقت التحديث"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mostra l’hora d’actualització"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Zobrazit čas aktualizace"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Vis opdateringstidspunkt"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Zeit der Aktualisierung anzeigen"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Εμφάνιση ώρας ενημέρωσης"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Show update time"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mostrar hora de actualización"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Näytä päivitysaika"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Afficher l’heure de mise à jour"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "הצגת שעת העדכון"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "अपडेट का समय दिखाएँ"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Prikaži vrijeme ažuriranja"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Frissítés idejének megjelenítése"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tampilkan waktu pembaruan"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mostra ora di aggiornamento"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "更新時刻を表示"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "업데이트 시간 표시"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tunjukkan masa kemas kini"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Vis oppdateringstidspunkt"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Toon tijd van bijwerken"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Pokaż czas aktualizacji"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mostrar hora da atualização"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mostrar hora da atualização"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Afișează ora actualizării"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Показывать время обновления"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Zobraziť čas aktualizácie"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Pokaži čas posodobitve"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Visa uppdateringstid"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "แสดงเวลาอัปเดต"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Güncelleme saatini göster"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Показувати час оновлення"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Hiển thị giờ cập nhật"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "显示更新时间"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "顯示更新時間"
+     }
+    }
+   }
+  },
+  "Show watts": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "إظهار الواط"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mostra els watts"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Zobrazit watty"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Vis watt"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Watt anzeigen"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Εμφάνιση watt"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Show watts"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mostrar vatios"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Näytä watit"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Afficher les watts"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "הצגת ואט"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "वॉट दिखाएँ"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Prikaži vate"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Watt megjelenítése"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tampilkan watt"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mostra watt"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "ワット数を表示"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "와트 표시"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tunjukkan watt"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Vis watt"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Toon watt"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Pokaż waty"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mostrar watts"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mostrar watts"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Afișează wații"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Показывать ватты"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Zobraziť watty"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Pokaži vate"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Visa watt"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "แสดงวัตต์"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Watt’ı göster"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Показувати вати"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Hiển thị số watt"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "显示瓦数"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "顯示瓦數"
+     }
+    }
+   }
+  },
+  "Show weak adapter warning": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "إظهار تحذير المحول الضعيف"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Mostra l’avís d’adaptador feble"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Zobrazit varování o slabém adaptéru"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Vis advarsel om svag strømforsyning"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Vor schwachem Netzteil warnen"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Προειδοποίηση για αδύναμο τροφοδοτικό"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Show weak adapter warning"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Avisar de adaptador débil"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Varoita heikosta virtalähteestä"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Signaler un adaptateur faible"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "הצגת אזהרה על מתאם חלש"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "कमज़ोर अडैप्टर की चेतावनी दिखाएँ"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Upozori na slab adapter"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Figyelmeztetés gyenge adapterre"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tampilkan peringatan adaptor lemah"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Avvisa se l’alimentatore è debole"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "アダプタの出力不足を警告"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "약한 어댑터 경고 표시"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tunjukkan amaran penyesuai lemah"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Varsle om svak strømforsyning"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Waarschuw bij zwakke adapter"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ostrzegaj o słabym zasilaczu"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Avisar sobre adaptador fraco"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Avisar sobre adaptador fraco"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Avertizează despre adaptorul slab"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Предупреждать о слабом адаптере"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Upozorniť na slabý adaptér"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Opozori na šibek napajalnik"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Varna för svag strömadapter"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "เตือนเมื่ออะแดปเตอร์กำลังต่ำ"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Zayıf adaptör uyarısını göster"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Попереджати про слабкий адаптер"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Cảnh báo bộ sạc yếu"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "适配器功率不足时警告"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "轉接器功率不足時警告"
+     }
+    }
+   }
+  },
+  "Time": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "الوقت"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Temps"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Čas"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tid"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Zeit"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Χρόνος"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Time"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tiempo"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Aika"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Durée"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "זמן"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "समय"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Vrijeme"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Idő"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Waktu"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tempo"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "時間"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "시간"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Masa"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tid"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tijd"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Czas"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tempo"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tempo"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Timp"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Время"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Čas"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Čas"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tid"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "เวลา"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Süre"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Час"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Thời gian"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "时间"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "時間"
+     }
+    }
+   }
+  },
+  "Until full": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "حتى الامتلاء"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Fins al 100%"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Do nabití"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Indtil fuld"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bis voll"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Έως πλήρη φόρτιση"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Until full"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Hasta el 100 %"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Täyteen"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Avant 100 %"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "עד טעינה מלאה"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "पूरा होने में"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Do pune"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Feltöltésig"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Hingga penuh"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Alla carica completa"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "満充電まで"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "완충까지"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Hingga penuh"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Til fulladet"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tot vol"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Do pełna"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Até 100%"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Até 100%"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Până la 100%"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "До полной"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Do nabitia"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Do polne"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Till fulladdat"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "จนกว่าจะเต็ม"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Dolmasına"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "До повного"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Đến khi đầy"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "充满还需"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "充滿還需"
+     }
+    }
+   }
+  },
+  "Weak adapter: battery barely charging": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "محول ضعيف: البطارية بالكاد تُشحن"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Adaptador feble: la bateria gairebé no es carrega"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Slabý adaptér: baterie se téměř nenabíjí"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Svag strømforsyning: batteriet oplades næsten ikke"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Schwaches Netzteil: Batterie lädt kaum"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Αδύναμο τροφοδοτικό: η μπαταρία μόλις φορτίζεται"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Weak adapter: battery barely charging"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Adaptador débil: la batería apenas se carga"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Heikko virtalähde: akku tuskin latautuu"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Adaptateur faible : la batterie se charge à peine"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "מתאם חלש: הסוללה כמעט לא נטענת"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "कमज़ोर अडैप्टर: बैटरी मुश्किल से चार्ज हो रही है"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Slab adapter: baterija se jedva puni"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Gyenge adapter: az akkumulátor alig töltődik"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Adaptor lemah: baterai hampir tidak terisi"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Alimentatore debole: la batteria si carica appena"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "アダプタの出力不足：ほとんど充電されていません"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "약한 어댑터: 배터리가 거의 충전되지 않음"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Penyesuai lemah: bateri hampir tidak dicas"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Svak strømforsyning: batteriet lades nesten ikke"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Zwakke adapter: batterij laadt nauwelijks op"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Słaby zasilacz: bateria prawie się nie ładuje"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Adaptador fraco: a bateria mal carrega"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Adaptador fraco: a bateria mal carrega"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Adaptor slab: bateria abia se încarcă"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Слабый адаптер: батарея почти не заряжается"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Slabý adaptér: batéria sa takmer nenabíja"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Šibek napajalnik: baterija se komaj polni"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Svag strömadapter: batteriet laddas knappt"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "อะแดปเตอร์กำลังต่ำ: แบตเตอรี่แทบไม่ชาร์จ"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Zayıf adaptör: pil neredeyse şarj olmuyor"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Слабкий адаптер: акумулятор майже не заряджається"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bộ sạc yếu: pin hầu như không sạc"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "适配器功率不足：电池几乎未充电"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "轉接器功率不足：電池幾乎未充電"
+     }
+    }
+   }
+  },
+  "Weak adapter: battery is draining": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "محول ضعيف: البطارية تفرغ"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Adaptador feble: la bateria es descarrega"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Slabý adaptér: baterie se vybíjí"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Svag strømforsyning: batteriet aflades"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Schwaches Netzteil: Batterie entlädt sich"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Αδύναμο τροφοδοτικό: η μπαταρία αποφορτίζεται"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Weak adapter: battery is draining"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Adaptador débil: la batería se descarga"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Heikko virtalähde: akku purkautuu"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Adaptateur faible : la batterie se décharge"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "מתאם חלש: הסוללה מתרוקנת"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "कमज़ोर अडैप्टर: बैटरी डिस्चार्ज हो रही है"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Slab adapter: baterija se prazni"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Gyenge adapter: az akkumulátor merül"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Adaptor lemah: baterai terkuras"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Alimentatore debole: la batteria si scarica"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "アダプタの出力不足：バッテリーが減っています"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "약한 어댑터: 배터리가 방전되고 있음"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Penyesuai lemah: bateri semakin susut"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Svak strømforsyning: batteriet lades ut"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Zwakke adapter: batterij raakt leeg"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Słaby zasilacz: bateria się rozładowuje"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Adaptador fraco: a bateria está descarregando"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Adaptador fraco: a bateria está a descarregar"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Adaptor slab: bateria se descarcă"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Слабый адаптер: батарея разряжается"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Slabý adaptér: batéria sa vybíja"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Šibek napajalnik: baterija se prazni"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Svag strömadapter: batteriet laddas ur"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "อะแดปเตอร์กำลังต่ำ: แบตเตอรี่กำลังลดลง"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Zayıf adaptör: pil boşalıyor"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Слабкий адаптер: акумулятор розряджається"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Bộ sạc yếu: pin đang cạn"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "适配器功率不足：电池正在耗电"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "轉接器功率不足：電池正在耗電"
+     }
+    }
+   }
+  }
+ },
+ "version": "1.0"
+}

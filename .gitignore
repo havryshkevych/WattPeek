@@ -1,0 +1,8 @@
+.DS_Store
+build/
+dist/
+Generated/
+WattPeek.xcodeproj/
+# личное, не публикуется
+AppStore/
+Probe/

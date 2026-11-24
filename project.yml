@@ -1,0 +1,48 @@
+name: WattPeek
+options:
+  bundleIdPrefix: io.github.havryshkevych
+  deploymentTarget: {macOS: "14.0"}
+  developmentLanguage: en
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "1.3.0"
+    CURRENT_PROJECT_VERSION: "4"
+    CODE_SIGN_STYLE: Manual
+    CODE_SIGN_IDENTITY: "-" # ad-hoc: собирается без аккаунта Apple
+    CODE_SIGN_INJECT_BASE_ENTITLEMENTS: NO
+    ARCHS: arm64 # Intel не проверялся
+    ENABLE_HARDENED_RUNTIME: YES
+    DEPLOYMENT_POSTPROCESSING: YES # вырезать символы: в них остаются пути сборщика
+    STRIP_INSTALLED_PRODUCT: YES
+    STRIP_STYLE: all
+targets:
+  WattPeek:
+    type: application
+    platform: macOS
+    sources: [App, Shared]
+    dependencies: [{target: WattPeekWidget}]
+    info:
+      path: Generated/App-Info.plist
+      properties: {LSUIElement: true, CFBundleShortVersionString: $(MARKETING_VERSION), CFBundleVersion: $(CURRENT_PROJECT_VERSION), LSApplicationCategoryType: public.app-category.utilities}
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.havryshkevych.wattpeek
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+  WattPeekWidget:
+    type: app-extension
+    platform: macOS
+    sources: [Widget, Shared]
+    info:
+      path: Generated/Widget-Info.plist
+      properties:
+        CFBundleDisplayName: WattPeek
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        NSExtension: {NSExtensionPointIdentifier: com.apple.widgetkit-extension}
+    entitlements:
+      path: Generated/Widget.entitlements
+      properties: {com.apple.security.app-sandbox: true, com.apple.security.temporary-exception.files.home-relative-path.read-only: [/Library/Application Support/WattPeek/]}
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.havryshkevych.wattpeek.widget
