@@ -2,14 +2,15 @@ import AppKit
 import ServiceManagement
 import WidgetKit
 
-final class App: NSObject, NSApplicationDelegate {
+final class App: NSObject, NSApplicationDelegate, NSMenuDelegate {
     private let smc = SMC()
     private var samples: [Sample] = []
     private var ticks = 0
     private var widgetState = ""
     private var layoutState = ""
+    private var menuOpened = (at: Date.distantPast, mouse: NSPoint.zero)
     private let item = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
-    private let rows = (0..<6).map { _ in NSMenuItem(title: "—", action: nil, keyEquivalent: "") }
+    private let rows = (0..<8).map { _ in NSMenuItem(title: "—", action: nil, keyEquivalent: "") }
     private let model = Model()
     private lazy var panel = Panel(model: model)
     private lazy var settings = SettingsWindow()
@@ -27,6 +28,7 @@ final class App: NSObject, NSApplicationDelegate {
         open.target = self
         menu.addItem(open)
         menu.addItem(NSMenuItem(title: L("Quit"), action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
+        menu.delegate = self
         item.menu = menu
         item.button?.font = .monospacedDigitSystemFont(ofSize: 0, weight: .regular)
 
@@ -51,6 +53,17 @@ final class App: NSObject, NSApplicationDelegate {
     func applicationShouldHandleReopen(_: NSApplication, hasVisibleWindows _: Bool) -> Bool {
         settings.present()
         return false
+    }
+
+    // Двойной клик по иконке — показать или убрать панель. Первый клик сразу открывает меню, второй его закрывает:
+    // так одинарный не ждёт, не станет ли он двойным.
+    func menuWillOpen(_: NSMenu) { menuOpened = (.now, NSEvent.mouseLocation) }
+
+    func menuDidClose(_: NSMenu) {
+        let mouse = NSEvent.mouseLocation
+        guard Date.now.timeIntervalSince(menuOpened.at) < NSEvent.doubleClickInterval,
+              hypot(mouse.x - menuOpened.mouse.x, mouse.y - menuOpened.mouse.y) < 5 else { return }
+        UserDefaults.standard.set(!Settings.on("showPanel"), forKey: "showPanel") // дальше сработает applySettings
     }
 
     @objc private func openSettings() { settings.present() }
@@ -80,15 +93,18 @@ final class App: NSObject, NSApplicationDelegate {
         s.adapter = mean(\.adapter, 3)
         s.rating = adapterRating()
         s.percent = batteryPercent()
+        s.temperature = batteryTemperature(smc)
+        s.cycles = cycleCount()
         // Время и предупреждение — по минуте, и не раньше 20 с данных.
         let ready = samples.count >= 10
         s.trend = mean(\.milliamps, 30)
         s.remaining = ready ? capacity().flatMap { timeLeft(milliamps: s.trend, now: $0.now, full: $0.full) } : nil
         s.weak = ready ? weakAdapter(rating: s.rating, adapter: mean(\.adapter, 30), battery: mean(\.battery, 30),
                                      percent: s.percent, remaining: s.remaining) : nil
+        if ticks % 43_200 == 0 { updateHealth() } // раз в сутки: меняется на процент за месяцы
         ticks += 1
         let point = ticks % 15 == 0
-        if point { s.record(battery: mean(\.battery, 15), system: mean(\.system, 15)) }
+        if point { s.record(battery: mean(\.battery, 15), system: mean(\.system, 15), percent: s.percent) }
         model.s = s
         render()
 
@@ -102,6 +118,13 @@ final class App: NSObject, NSApplicationDelegate {
             saved.save()
         }
         if changed { widgetState = state; WidgetCenter.shared.reloadAllTimelines() }
+    }
+
+    private func updateHealth() {
+        DispatchQueue.global(qos: .utility).async {
+            guard let health = batteryHealth() else { return }
+            DispatchQueue.main.async { self.model.s.health = health }
+        }
     }
 
     private var warning: Weak? { Settings.on("showWarning") ? model.s.weak : nil }
@@ -119,14 +142,16 @@ final class App: NSObject, NSApplicationDelegate {
         rows[2].title = pair(L("Adapter"), adapterText(s.adapter, s.rating))
         rows[3].title = pair(L("Charge"), percentText(s.percent))
         rows[4].title = pair(L(s.timeLabel), durationText(s.remaining))
-        rows[5].title = warning.map(weakText) ?? ""
-        rows[5].isHidden = warning == nil
+        rows[5].title = pair(L("Temperature"), temperatureText(s.temperature))
+        rows[6].title = pair(L("Battery health"), percentText(s.health))
+        rows[7].title = warning.map(weakText) ?? ""
+        rows[7].isHidden = warning == nil
 
         // Закрытую окнами панель не перерисовываем, кроме смены настроек.
         guard force || panel.occlusionState.contains(.visible) else { return }
         model.objectWillChange.send()
-        // Высота меняется только от предупреждения и настроек; мерить её каждый раз незачем.
-        let layout = "\(Settings.display)\(s.weak?.rawValue ?? "")"
+        // Высота меняется только от предупреждения, настроек и появления подписей и графиков; мерить её каждый раз незачем.
+        let layout = "\(Settings.display)\(s.weak?.rawValue ?? "")\(s.rating == nil)\(s.cycles == nil)\(s.history.isEmpty)"
         if layout != layoutState { layoutState = layout; DispatchQueue.main.async { self.panel.fit() } }
     }
 }
@@ -143,6 +168,11 @@ if CommandLine.arguments.contains("--check") {
     assert(weakAdapter(rating: 20, adapter: 18.2, battery: 9, percent: 50, remaining: 9_000) == nil)
     assert(weakAdapter(rating: 140, adapter: 30, battery: -2, percent: 60, remaining: 9_000) == nil) // не выжат
     assert(weakAdapter(rating: nil, adapter: 0, battery: -9, percent: 6, remaining: 900) == nil)
+    assert(temperatureText(36.4, locale: ru).hasPrefix("36") && temperatureText(36.4, locale: us).hasPrefix("98") && temperatureText(nil) == "—")
+    assert(scaleTop(0) == 10 && scaleTop(25) == 25 && scaleTop(26) == 50 && scaleTop(201) == 300)
+    assert(parseHealth(Data(#"{"SPPowerDataType":[{"_name":"x"},{"sppower_battery_health_info":{"sppower_battery_health_maximum_capacity":"82%"}}]}"#.utf8)) == 82)
+    assert(parseHealth(Data("{}".utf8)) == nil && parseHealth(Data()) == nil)
+    assert((try? JSONDecoder().decode(Point.self, from: Data(#"{"date":0,"battery":1,"system":1,"segment":0}"#.utf8))) != nil) // снимок 1.3
     var m = Snapshot(battery: 0.2, trend: -32) // мгновенно заряжается, за минуту разряжается: подпись — по минуте
     assert(m.timeLabel == "Remaining")
     let t = Date.now
@@ -163,6 +193,7 @@ if CommandLine.arguments.contains("--check") {
         print(name, watts(s.battery, signed: true), "| адаптер", watts(s.adapter), "| Mac", watts(s.system))
     }
     guard let cap = capacity() else { fatalError("ёмкость не читается") }
+    print("температура", temperatureText(batteryTemperature(SMC())), "| циклы", cycleCount() ?? -1, "| здоровье", percentText(batteryHealth()))
     print("ёмкость", cap, "| автозапуск", SMAppService.mainApp.status == .enabled)
     exit(0)
 }

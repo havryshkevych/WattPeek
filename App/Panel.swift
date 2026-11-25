@@ -11,17 +11,26 @@ struct PanelView: View {
 
     var body: some View {
         let s = model.s, show = Settings.display
-        VStack(alignment: .leading, spacing: 8) {
+        VStack(alignment: .leading, spacing: 10) {
             VStack(alignment: .leading, spacing: 0) {
                 Headline(battery: s.battery)
                 Text(status(s.battery)).font(.caption).foregroundStyle(.secondary)
             }
-            if show.mac || show.adapter || show.charge || show.time {
-                Divider()
-                Rows(s: s, show: show).font(.callout)
-            }
             if show.warning, let weak = s.weak { WeakLabel(weak: weak) }
-            if show.chart { HistoryBlock(points: s.history).frame(height: 96).padding(.top, 4) }
+            // Линия Mac здесь только когда у него нет своей строки с графиком.
+            if show.chart { HistoryBlock(points: s.history, mac: !show.mac).frame(height: 82) }
+            if show.charge || show.time { Divider(); ChargeBlock(s: s, show: show) }
+            if show.mac { Divider(); MacBlock(s: s, chart: show.chart) }
+            if show.adapter { Divider(); AdapterRow(s: s) }
+            if show.temperature {
+                Divider()
+                PanelRow(symbol: "thermometer.medium", color: .secondary, name: L("Temperature"), value: temperatureText(s.temperature))
+            }
+            if show.health {
+                Divider()
+                PanelRow(symbol: "heart.fill", color: .pink, name: L("Battery health"),
+                         detail: s.cycles.map { pair(L("Cycle count"), $0.formatted()) }, value: percentText(s.health))
+            }
         }
         .monospacedDigit()
         .localDirection()
@@ -38,7 +47,7 @@ private final class DragHostingView: NSHostingView<PanelView> {
 }
 
 final class Panel: NSPanel {
-    static let width: CGFloat = 220
+    static let width: CGFloat = 260
     private let host: DragHostingView
 
     init(model: Model) {
@@ -81,13 +90,20 @@ final class Panel: NSPanel {
         setFrameAutosaveName("Panel")
     }
 
-    /// Высота по содержимому; верхний край стоит на месте.
+    /// Высота по содержимому; верхний край стоит на месте, пока панель помещается на экране.
     func fit() {
         // Меряем свежей копией: показанная отдаёт размер прошлого кадра. Вызывается редко, копия дёшева.
         let fresh = NSHostingView(rootView: PanelView(model: host.rootView.model))
         let size = NSSize(width: Self.width, height: fresh.fittingSize.height)
-        guard size != frame.size else { return }
-        setFrame(NSRect(x: frame.minX, y: frame.maxY - size.height, width: size.width, height: size.height), display: true)
+        var rect = NSRect(x: frame.minX, y: frame.maxY - size.height, width: size.width, height: size.height)
+        // Подросла у края экрана — сдвинуть внутрь, но верх важнее низа.
+        // screen у непоказанного окна — nil
+        if let area = (screen ?? NSScreen.screens.first { $0.visibleFrame.intersects(frame) })?.visibleFrame {
+            rect.origin.x = max(area.minX, min(rect.minX, area.maxX - rect.width))
+            rect.origin.y = min(max(rect.minY, area.minY), area.maxY - rect.height)
+        }
+        guard rect != frame else { return }
+        setFrame(rect, display: true)
         invalidateShadow()
     }
 

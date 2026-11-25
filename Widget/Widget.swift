@@ -9,12 +9,17 @@ struct OverviewIntent: WidgetConfigurationIntent {
     @Parameter(title: "Show chart", default: true) var chart: Bool
     @Parameter(title: "Show weak adapter warning", default: true) var warning: Bool
     @Parameter(title: "Show update time", default: true) var updated: Bool
-    @Parameter(title: "Mac", default: true) var mac: Bool
-    @Parameter(title: "Adapter", default: true) var adapter: Bool
     @Parameter(title: "Charge", default: true) var charge: Bool
     @Parameter(title: "Time", default: true) var time: Bool
+    @Parameter(title: "Mac", default: true) var mac: Bool
+    @Parameter(title: "Adapter", default: true) var adapter: Bool
+    @Parameter(title: "Temperature", default: true) var temperature: Bool
+    @Parameter(title: "Battery health", default: true) var health: Bool
 
-    var display: Display { Display(chart: chart, warning: warning, mac: mac, adapter: adapter, charge: charge, time: time) }
+    var display: Display {
+        Display(chart: chart, warning: warning, mac: mac, adapter: adapter, charge: charge, time: time,
+                temperature: temperature, health: health)
+    }
 }
 
 struct SimpleIntent: WidgetConfigurationIntent {
@@ -51,10 +56,11 @@ struct Provider<I: WidgetConfigurationIntent>: AppIntentTimelineProvider {
 extension Snapshot {
     /// Для галереи виджетов: час, где сначала зарядка, потом работа от батареи.
     static var sample: Snapshot {
-        var s = Snapshot(battery: 38.2, system: 21.4, adapter: 61.3, rating: 96, percent: 64, remaining: 3900, trend: 3000)
+        var s = Snapshot(battery: 38.2, system: 21.4, adapter: 61.3, rating: 96, percent: 64, temperature: 36, cycles: 198, health: 92, remaining: 3900, trend: 3000)
         for i in 0..<120 {
             let x = Double(i) / 120
             s.record(battery: x < 0.45 ? -14 - 5 * sin(x * 22) : 46 - 18 * x + 2 * sin(x * 40), system: 18 + 5 * sin(x * 22),
+                     percent: x < 0.45 ? 52 - Int(x * 20) : 43 + Int((x - 0.45) * 38),
                      at: s.date.addingTimeInterval(Double(i - 119) * 30))
         }
         return s
@@ -109,6 +115,60 @@ struct Header: View {
     }
 }
 
+/// Строка для тесных размеров: значок, имя, значение.
+struct CompactRow: View {
+    let symbol: String, color: Color, name: String, value: String
+
+    var body: some View {
+        HStack(spacing: 5) {
+            Image(systemName: symbol).font(.system(size: 10)).foregroundStyle(color).frame(width: 15).accessibilityHidden(true)
+            Text(name).foregroundStyle(.secondary).frame(maxWidth: .infinity, alignment: .leading)
+            Text(value).fontWeight(.semibold).fixedSize()
+        }
+        .font(.caption).lineLimit(1).minimumScaleFactor(0.6)
+    }
+}
+
+struct CompactAdapter: View {
+    let s: Snapshot
+    var actual = true
+
+    var body: some View {
+        // Имя и «Не подключён» рядом не помещаются; что это адаптер, скажет значок.
+        CompactRow(symbol: "powerplug.fill", color: .blue, name: L(s.rating == nil ? "Not connected" : "Adapter"),
+                   value: s.rating.map { actual ? adapterShort(s.adapter, $0) : watts(Double($0), digits: 0) } ?? "")
+            .accessibilityElement(children: .ignore)
+            .accessibilityLabel(pair(L("Adapter"), adapterText(s.adapter, s.rating)))
+    }
+}
+
+/// Значок с числом, без имени.
+struct Chip: View {
+    let symbol: String, color: Color, name: String, value: String
+
+    var body: some View {
+        HStack(spacing: 4) {
+            Image(systemName: symbol).font(.system(size: 10)).foregroundStyle(color).frame(width: 13)
+            Text(value).font(.caption).fontWeight(.semibold).lineLimit(1).minimumScaleFactor(0.7)
+        }
+        .accessibilityElement(children: .ignore).accessibilityLabel(pair(name, value))
+    }
+}
+
+struct TemperatureChip: View {
+    let s: Snapshot
+    var body: some View {
+        if s.temperature != nil { Chip(symbol: "thermometer.medium", color: .secondary, name: L("Temperature"), value: temperatureText(s.temperature)) }
+    }
+}
+
+struct HealthChip: View {
+    let s: Snapshot
+    var body: some View {
+        if s.health != nil { Chip(symbol: "heart.fill", color: .pink, name: L("Battery health"), value: percentText(s.health)) }
+    }
+}
+
 struct OverviewView: View {
     let s: Snapshot
     let show: Display
@@ -116,37 +176,66 @@ struct OverviewView: View {
     let family: WidgetFamily
 
     private var weak: Weak? { show.warning ? s.weak : nil }
+    /// В большом виджете высота ограничена: у заряда полоса без графика.
+    private var noChart: Display { var d = show; d.chart = false; return d }
 
     var body: some View {
         switch family {
         case .systemLarge:
-            VStack(alignment: .leading, spacing: 8) {
-                Header(s: s, size: 34, updated: updated)
-                Divider()
-                Rows(s: s, show: show)
+            VStack(alignment: .leading, spacing: 6) {
+                Header(s: s, size: 28, updated: updated)
                 if let weak { WeakLabel(weak: weak) }
-                if show.chart { HistoryBlock(points: s.history).padding(.top, 4) } else { Spacer(minLength: 0) }
+                if show.chart {
+                    // Без подписи «Последний час»: высоты впритык.
+                    if show.mac { HistoryChart(points: s.history, mac: false) } else { HistoryBlock(points: s.history) }
+                }
+                if show.charge || show.time { Divider(); ChargeBlock(s: s, show: noChart) }
+                if show.mac { Divider(); MacBlock(s: s, chart: show.chart && weak == nil) }
+                if show.adapter { Divider(); AdapterRow(s: s) }
+                if chips { Divider(); chipLine }
+                if !show.chart { Spacer(minLength: 0) }
             }
         case .systemMedium:
-            HStack(spacing: 14) {
-                facts(size: 24)
-                if show.chart { HistoryBlock(points: s.history) }
+            HStack(spacing: 16) {
+                facts
+                if show.chart || chips {
+                    VStack(alignment: .leading, spacing: 6) {
+                        if show.chart { HistoryBlock(points: s.history) } else { Spacer(minLength: 0) }
+                        if chips { chipLine }
+                    }
+                    .frame(maxWidth: .infinity)
+                }
             }
         default:
-            facts(size: 24)
+            facts
         }
     }
 
-    private func facts(size: CGFloat) -> some View {
+    private var chips: Bool { (show.temperature && s.temperature != nil) || (show.health && s.health != nil) }
+
+    private var chipLine: some View {
+        HStack(spacing: 12) {
+            if show.temperature { TemperatureChip(s: s) }
+            if show.health { HealthChip(s: s) }
+            if show.health, family == .systemLarge, let n = s.cycles {
+                Text(pair(L("Cycle count"), n.formatted())).font(.caption).foregroundStyle(.secondary).lineLimit(1).minimumScaleFactor(0.7)
+            }
+        }
+    }
+
+    private var facts: some View {
         VStack(alignment: .leading, spacing: 4) {
-            Header(s: s, size: size, updated: updated, compact: weak != nil)
-            Divider()
-            Rows(s: s, show: show).font(.caption)
+            Header(s: s, size: 24, updated: updated, compact: weak != nil)
+            if show.charge { ChargeBar(percent: s.percent).padding(.vertical, 1) } else { Divider() }
+            if show.charge { CompactRow(symbol: batterySymbol(s.percent), color: chargeColor(s.percent), name: L("Charge"), value: percentText(s.percent)) }
+            if show.time { CompactRow(symbol: "clock", color: .secondary, name: L(s.timeLabel), value: durationText(s.remaining)) }
+            if show.mac { CompactRow(symbol: "laptopcomputer", color: macColor, name: "Mac", value: watts(s.system)) }
+            if show.adapter { CompactAdapter(s: s) }
             Spacer(minLength: 0)
             if let weak {
                 // Значок в строке, а не отдельной колонкой: иначе длинный перевод не помещается.
                 Text("\(Image(systemName: "exclamationmark.triangle.fill")) \(weakText(weak))")
-                    .font(.caption2).foregroundStyle(.orange).lineLimit(3).fixedSize(horizontal: false, vertical: true)
+                    .font(.caption2).foregroundStyle(.orange).lineLimit(2).minimumScaleFactor(0.8).fixedSize(horizontal: false, vertical: true)
             }
         }
         .frame(maxWidth: .infinity)
@@ -159,8 +248,8 @@ struct PowerView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 4) {
-            HStack {
-                Image(systemName: stateSymbol(s.battery)).font(.system(size: 26)).foregroundStyle(stateColor(s.battery))
+            HStack(alignment: .top) {
+                Image(systemName: stateSymbol(s.battery)).font(.system(size: 24)).foregroundStyle(stateColor(s.battery))
                 Spacer()
                 RefreshButton()
             }
@@ -171,7 +260,13 @@ struct PowerView: View {
             if warning, let weak = s.weak {
                 Text(weakText(weak)).font(.caption2).foregroundStyle(.orange).lineLimit(2).minimumScaleFactor(0.8)
             } else {
-                Text(pair(L(s.timeLabel), durationText(s.remaining))).font(.caption).lineLimit(1).minimumScaleFactor(0.7)
+                ChargeBar(percent: s.percent)
+                HStack(spacing: 4) {
+                    Text(percentText(s.percent)).fontWeight(.semibold)
+                    Spacer(minLength: 4)
+                    Text(durationText(s.remaining)).foregroundStyle(.secondary).accessibilityLabel(pair(L(s.timeLabel), durationText(s.remaining)))
+                }
+                .font(.caption).lineLimit(1).minimumScaleFactor(0.7)
             }
         }
     }
@@ -180,12 +275,22 @@ struct PowerView: View {
 struct ChartView: View {
     let s: Snapshot
     let warning: Bool, updated: Bool
+    let family: WidgetFamily
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 6) {
-            Header(s: s, size: 20, updated: updated)
+        VStack(alignment: .leading, spacing: 8) {
+            Header(s: s, size: family == .systemLarge ? 30 : 20, updated: updated)
             if warning, let weak = s.weak { WeakLabel(weak: weak) }
-            HistoryChart(points: s.history)
+            HistoryChart(points: s.history, mac: family != .systemLarge)
+            if family == .systemLarge {
+                Divider()
+                VStack(spacing: 8) {
+                    PanelRow(symbol: batterySymbol(s.percent), color: chargeColor(s.percent), name: L("Charge"), value: percentText(s.percent))
+                    Sparkline(points: s.history, value: \.percentValue, top: 100, label: percentText(100), color: .green)
+                }
+                Divider()
+                MacBlock(s: s, chart: true)
+            }
         }
     }
 }
@@ -196,19 +301,23 @@ struct BatteryView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 4) {
-            HStack(alignment: .top) {
+            HStack(alignment: .top, spacing: 0) {
                 Gauge(value: Double(s.percent ?? 0), in: 0...100) { EmptyView() } currentValueLabel: {
                     Text(percentText(s.percent)).font(.system(size: 14, weight: .semibold))
                 }
                 .gaugeStyle(.accessoryCircularCapacity)
-                .tint((s.percent ?? 100) <= 20 ? .orange : .green)
-                Spacer(minLength: 0)
+                .tint(chargeColor(s.percent))
+                VStack(alignment: .leading, spacing: 6) {
+                    TemperatureChip(s: s)
+                    HealthChip(s: s)
+                }
+                .padding(.top, 6).padding(.leading, 8)
+                .frame(maxWidth: .infinity, alignment: .leading)
                 RefreshButton()
             }
             Spacer(minLength: 0)
-            Text(pair(L(s.timeLabel), durationText(s.remaining))).font(.caption).lineLimit(1).minimumScaleFactor(0.7)
-            Text(pair(L("Adapter"), s.rating.map { watts(Double($0), digits: 0) } ?? L("Not connected")))
-                .font(.caption).lineLimit(1).minimumScaleFactor(0.7)
+            CompactRow(symbol: "clock", color: .secondary, name: L(s.timeLabel), value: durationText(s.remaining))
+            CompactAdapter(s: s, actual: false)
             if warning, let weak = s.weak {
                 Text(weakText(weak)).font(.caption2).foregroundStyle(.orange).lineLimit(2).minimumScaleFactor(0.8)
             } else {
@@ -256,7 +365,7 @@ struct PowerWidget: Widget {
 struct ChartWidget: Widget {
     var body: some WidgetConfiguration {
         AppIntentConfiguration(kind: "chart", intent: SimpleIntent.self, provider: Provider<SimpleIntent>()) { e in
-            Frame { _ in ChartView(s: e.s, warning: e.config.warning, updated: e.config.updated) }
+            Frame { ChartView(s: e.s, warning: e.config.warning, updated: e.config.updated, family: $0) }
         }
         .configurationDisplayName("Chart")
         .supportedFamilies([.systemSmall, .systemMedium, .systemLarge])

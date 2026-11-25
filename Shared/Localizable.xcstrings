@@ -1291,6 +1291,221 @@
     }
    }
   },
+  "Battery health": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "حالة البطارية"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Salut de la bateria"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Kondice baterie"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batteritilstand"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batteriezustand"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Υγεία μπαταρίας"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Battery health"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Salud de la batería"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Akun kunto"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "État de santé de la batterie"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "בריאות הסוללה"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "बैटरी हेल्थ"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Zdravlje baterije"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Akku állapota"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Kesehatan Baterai"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Stato batteria"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "バッテリーの状態"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "배터리 성능 상태"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Kesihatan Bateri"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batteritilstand"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batterijconditie"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Kondycja baterii"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Saúde da Bateria"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Estado da bateria"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Stare sănătate baterie"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Состояние батареи"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Zdravie batérie"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Zdravje baterije"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batterihälsa"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "สุขภาพแบตเตอรี่"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Pil Sağlığı"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Справність акумулятора"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tình trạng pin"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "电池健康"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "電池健康度"
+     }
+    }
+   }
+  },
   "Battery idle": {
    "extractionState": "manual",
    "localizations": {
@@ -1932,6 +2147,221 @@
      "stringUnit": {
       "state": "translated",
       "value": "圖表"
+     }
+    }
+   }
+  },
+  "Cycle count": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "عدد الدورات"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Nombre de cicles"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Počet cyklů"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ladecyklusser"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Anzahl der Zyklen"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Κύκλοι φόρτισης"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Cycle count"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Número de ciclos"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Latausjaksojen määrä"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Comptage de cycles"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "ספירת המחזורים"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "साइकल गणना"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Broj ciklusa"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ciklusszámláló"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Jumlah Siklus"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Conteggio cicli"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "充放電回数"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "사이클 수"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Kiraan Kitaran"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Ladesykluser"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Aantal cycli"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Liczba cykli"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Número de Ciclos"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Contagem de ciclos"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Număr de cicluri"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Циклы"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Počet cyklov"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Število ciklov"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Cykelantal"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "จำนวนรอบ"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Devir Sayısı"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Цикли"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Số lượng chu kỳ"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "循环次数"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "循環使用次數"
      }
     }
    }
@@ -6666,6 +7096,221 @@
     }
    }
   },
+  "Temperature": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "درجة الحرارة"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Temperatura"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Teplota"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Temperatur"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Temperatur"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Θερμοκρασία"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Temperature"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Temperatura"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Lämpötila"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Température"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "טמפרטורה"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "तापमान"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Temperatura"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Hőmérséklet"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Suhu"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Temperatura"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "温度"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "온도"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Suhu"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Temperatur"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Temperatuur"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Temperatura"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Temperatura"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Temperatura"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Temperatură"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Температура"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Teplota"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Temperatura"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Temperatur"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "อุณหภูมิ"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Sıcaklık"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Температура"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Nhiệt độ"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "温度"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "溫度"
+     }
+    }
+   }
+  },
   "Time": {
    "extractionState": "manual",
    "localizations": {
@@ -7522,6 +8167,221 @@
      "stringUnit": {
       "state": "translated",
       "value": "轉接器功率不足：電池正在耗電"
+     }
+    }
+   }
+  },
+  "max. %@": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "بحد أقصى %@"
+     }
+    },
+    "ca": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "màx. %@"
+     }
+    },
+    "cs": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "max. %@"
+     }
+    },
+    "da": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "maks. %@"
+     }
+    },
+    "de": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "max. %@"
+     }
+    },
+    "el": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "έως %@"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "max. %@"
+     }
+    },
+    "es": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "máx. %@"
+     }
+    },
+    "fi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "enint. %@"
+     }
+    },
+    "fr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "max. %@"
+     }
+    },
+    "he": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "עד %@"
+     }
+    },
+    "hi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "अधिकतम %@"
+     }
+    },
+    "hr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "maks. %@"
+     }
+    },
+    "hu": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "max. %@"
+     }
+    },
+    "id": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "maks. %@"
+     }
+    },
+    "it": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "max. %@"
+     }
+    },
+    "ja": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "最大 %@"
+     }
+    },
+    "ko": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "최대 %@"
+     }
+    },
+    "ms": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "maks. %@"
+     }
+    },
+    "nb": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "maks. %@"
+     }
+    },
+    "nl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "max. %@"
+     }
+    },
+    "pl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "maks. %@"
+     }
+    },
+    "pt-BR": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "máx. %@"
+     }
+    },
+    "pt-PT": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "máx. %@"
+     }
+    },
+    "ro": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "max. %@"
+     }
+    },
+    "ru": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "макс. %@"
+     }
+    },
+    "sk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "max. %@"
+     }
+    },
+    "sl": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "do %@"
+     }
+    },
+    "sv": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "max %@"
+     }
+    },
+    "th": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "สูงสุด %@"
+     }
+    },
+    "tr": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "en fazla %@"
+     }
+    },
+    "uk": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "макс. %@"
+     }
+    },
+    "vi": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "tối đa %@"
+     }
+    },
+    "zh-Hans": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "最大 %@"
+     }
+    },
+    "zh-Hant": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "最大 %@"
      }
     }
    }

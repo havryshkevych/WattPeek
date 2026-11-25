@@ -6,13 +6,15 @@ enum Settings {
     static let defaults: [String: Any] = [
         "showPanel": true, "onTop": false, "showIcon": true, "showWatts": true, "iconStyle": IconStyle.auto.rawValue,
         "showChart": true, "showWarning": true, "rowMac": true, "rowAdapter": true, "rowCharge": true, "rowTime": true,
+        "rowTemperature": true, "rowHealth": true,
     ]
 
     static func on(_ key: String) -> Bool { UserDefaults.standard.bool(forKey: key) }
 
     static var display: Display {
         Display(chart: on("showChart"), warning: on("showWarning"), mac: on("rowMac"),
-                adapter: on("rowAdapter"), charge: on("rowCharge"), time: on("rowTime"))
+                adapter: on("rowAdapter"), charge: on("rowCharge"), time: on("rowTime"),
+                temperature: on("rowTemperature"), health: on("rowHealth"))
     }
 
     static var iconStyle: IconStyle { IconStyle(rawValue: UserDefaults.standard.string(forKey: "iconStyle") ?? "") ?? .auto }
@@ -26,7 +28,7 @@ enum IconStyle: String, CaseIterable {
         switch self {
         case .auto: return stateSymbol(battery)
         case .bolt: return "bolt"
-        case .battery: return "battery.\([0, 25, 50, 75, 100][min(4, max(0, ((percent ?? 100) + 12) / 25))])percent"
+        case .battery: return batterySymbol(percent)
         case .plug: return "powerplug.fill"
         case .gauge: return "gauge.with.dots.needle.50percent"
         case .laptop: return "laptopcomputer"
@@ -60,6 +62,8 @@ struct SettingsView: View {
     @AppStorage("rowAdapter") private var rowAdapter = true
     @AppStorage("rowCharge") private var rowCharge = true
     @AppStorage("rowTime") private var rowTime = true
+    @AppStorage("rowTemperature") private var rowTemperature = true
+    @AppStorage("rowHealth") private var rowHealth = true
     @State private var login = SMAppService.mainApp.status == .enabled
 
     var body: some View {
@@ -85,10 +89,12 @@ struct SettingsView: View {
                 Group {
                     Toggle(L("Panel above all windows"), isOn: $onTop)
                     Toggle(L("Show chart"), isOn: $showChart)
-                    Toggle("Mac", isOn: $rowMac)
-                    Toggle(L("Adapter"), isOn: $rowAdapter)
                     Toggle(L("Charge"), isOn: $rowCharge)
                     Toggle(L("Time"), isOn: $rowTime)
+                    Toggle("Mac", isOn: $rowMac)
+                    Toggle(L("Adapter"), isOn: $rowAdapter)
+                    Toggle(L("Temperature"), isOn: $rowTemperature)
+                    Toggle(L("Battery health"), isOn: $rowHealth)
                 }
                 .disabled(!showPanel)
             }

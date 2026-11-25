@@ -4,16 +4,19 @@ See how many watts go into your MacBook’s battery, how many come out, and whet
 
 ![Desktop panel and menu bar](docs/1-panel.jpg)
 
-- **Menu bar and desktop panel**, updated every 2 seconds: battery power, what the Mac uses, what the adapter delivers next to its rating, charge, estimated time
-- **Chart of the last hour**
+- **Menu bar and desktop panel**, updated every 2 seconds: battery power, what the Mac uses, what the adapter delivers next to its rating, charge, estimated time, battery temperature, health and cycle count
+- **Charts of the last hour**: battery, charge and Mac
+- **Double-click the menu bar icon** to show or hide the panel
 - **Weak adapter warning** when the charger is near its limit and the battery still drains or barely charges
-- **Four widgets**: Overview, Power, Chart and Battery. macOS decides how often widgets refresh
+- **Four widgets**: Overview and Chart in three sizes, Power and Battery in small. Each can be adjusted, and the refresh button updates it at once; otherwise macOS decides how often widgets refresh
 - **35 languages**, following your Mac. The translations have not been reviewed by native speakers; corrections are welcome
 - No network connections, no account, no data collection
 
 | | |
 |---|---|
-| ![Weak adapter warning](docs/2-weak-adapter.jpg) | ![Widgets](docs/3-widgets.jpg) |
+| ![Weak adapter warning](docs/2-weak-adapter.jpg) | ![Widgets: medium Overview, Power and Battery](docs/3-widgets.jpg) |
+| ![Large Overview widget](docs/4-large-widget.jpg) | ![Chart widgets and small Overview](docs/6-charts.jpg) |
+| ![Large Chart widget in light and dark](docs/7-light.jpg) | ![Settings](docs/5-settings.jpg) |
 
 The screenshots show the app’s own interface with sample data.
 
@@ -43,7 +46,7 @@ The script runs the self-checks, builds `dist/WattPeek.zip`, then **replaces** `
 
 ## How it works
 
-Readings come from the SMC: battery current and voltage (`B0AC`, `B0AV`), adapter power (`PDTR`) and system power (`PSTR`). If the SMC is unavailable, WattPeek falls back to the IORegistry, which updates about once a minute. These sources are not documented by Apple and may change.
+Readings come from the SMC: battery current and voltage (`B0AC`, `B0AV`), adapter power (`PDTR`), system power (`PSTR`) and battery temperature (`TB0T`). Battery health is the Maximum Capacity reported by `system_profiler`, read once a day. If the SMC is unavailable, WattPeek falls back to the IORegistry, which updates about once a minute and has no temperature. These sources are not documented by Apple and may change.
 
 The app writes a snapshot with up to one hour of history to `~/Library/Application Support/WattPeek`, and the sandboxed widget reads it.
 

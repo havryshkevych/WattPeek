@@ -53,6 +53,34 @@ func batteryPercent() -> Int? {
     return nil
 }
 
+/// °C; датчик самой батареи, есть только в SMC.
+func batteryTemperature(_ smc: SMC?) -> Double? { smc?.read("TB0T") }
+
+func cycleCount() -> Int? { number("CycleCount").map { Int($0) } }
+
+/// «Максимальная ёмкость» из Системных настроек, %. Открытого API нет, а деление ёмкостей даёт другое число.
+/// Запускает процесс (~0,1 с): звать не с главного потока и редко.
+func batteryHealth() -> Int? {
+    let p = Process(), out = Pipe()
+    p.executableURL = URL(fileURLWithPath: "/usr/sbin/system_profiler")
+    p.arguments = ["SPPowerDataType", "-json"]
+    p.standardOutput = out
+    p.standardError = FileHandle.nullDevice
+    guard (try? p.run()) != nil else { return nil }
+    let data = out.fileHandleForReading.readDataToEndOfFile()
+    p.waitUntilExit()
+    return parseHealth(data)
+}
+
+func parseHealth(_ data: Data) -> Int? {
+    let root = (try? JSONSerialization.jsonObject(with: data)) as? [String: Any]
+    for part in root?["SPPowerDataType"] as? [[String: Any]] ?? [] {
+        let info = part["sppower_battery_health_info"] as? [String: Any]
+        if let text = info?["sppower_battery_health_maximum_capacity"] as? String { return Int(text.filter(\.isNumber)) }
+    }
+    return nil
+}
+
 /// Номинал подключённого блока питания; nil — не подключён.
 func adapterRating() -> Int? {
     (IOPSCopyExternalPowerAdapterDetails()?.takeRetainedValue() as? [String: Any])?[kIOPSPowerAdapterWattsKey] as? Int
@@ -109,6 +137,23 @@ func adapterText(_ actual: Double, _ rating: Int?) -> String {
     rating.map { "\(watts(actual)) / \(watts(Double($0), digits: 0))" } ?? L("Not connected")
 }
 
+/// В градусах региона: °C или °F.
+func temperatureText(_ t: Double?, locale: Locale = .current) -> String {
+    guard let t else { return "—" }
+    let text = Measurement(value: t, unit: UnitTemperature.celsius).formatted(
+        .measurement(width: .abbreviated, usage: .general, numberFormatStyle: .number.precision(.fractionLength(0))).locale(locale))
+    return isRTL ? "\u{2068}\(text)\u{2069}" : text
+}
+
+/// Верх шкалы мини-графика: ближайшая круглая мощность.
+func scaleTop(_ v: Double) -> Double { [10, 25, 50, 100, 150, 200].first { $0 >= v } ?? (v / 100).rounded(.up) * 100 }
+
+/// «61,3 / 96 Вт»: для узких строк, единица один раз.
+func adapterShort(_ actual: Double, _ rating: Int) -> String {
+    let text = "\(actual.formatted(.number.precision(.fractionLength(1)))) / \(watts(Double(rating), digits: 0))"
+    return isRTL ? "\u{2068}\(text)\u{2069}" : text
+}
+
 func percentText(_ p: Int?) -> String { p.map { $0.formatted(.percent) } ?? "—" }
 
 func durationText(_ t: TimeInterval?) -> String {
@@ -122,4 +167,8 @@ func durationText(_ t: TimeInterval?) -> String {
 
 func stateSymbol(_ battery: Double) -> String {
     isIdle(battery) ? "powerplug" : battery > 0 ? "bolt.fill" : "arrow.down"
+}
+
+func batterySymbol(_ percent: Int?) -> String {
+    "battery.\([0, 25, 50, 75, 100][min(4, max(0, ((percent ?? 100) + 12) / 25))])percent"
 }

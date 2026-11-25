@@ -1,7 +1,8 @@
 import Foundation
 
-struct Point: Codable, Identifiable {
+struct Point: Codable, Identifiable, Equatable {
     let date: Date, battery: Double, system: Double, segment: Int
+    var percent: Int? // нет в снимках до 1.4
     var id: Date { date }
 }
 
@@ -13,6 +14,9 @@ struct Snapshot: Codable {
     var adapter = 0.0
     var rating: Int?
     var percent: Int?
+    var temperature: Double?
+    var cycles: Int?
+    var health: Int?
     var remaining: TimeInterval?
     /// Средний ток за минуту. Подпись и время обязаны считаться из одного среднего,
     /// иначе время до нуля подпишется «до полной».
@@ -23,10 +27,10 @@ struct Snapshot: Codable {
     var timeLabel: String { trend > 0 ? "Until full" : "Remaining" }
 
     /// Точка раз в 30 с. Дыра больше 90 с — Mac спал: рвём линию, а не тянем её через сон.
-    mutating func record(battery: Double, system: Double, at now: Date = .now) {
+    mutating func record(battery: Double, system: Double, percent: Int? = nil, at now: Date = .now) {
         let segment = history.last.map { now.timeIntervalSince($0.date) > 90 ? $0.segment + 1 : $0.segment } ?? 0
         history = history.filter { now.timeIntervalSince($0.date) < 3600 }
-            + [Point(date: now, battery: battery, system: system, segment: segment)]
+            + [Point(date: now, battery: battery, system: system, segment: segment, percent: percent)]
     }
 
     // MARK: - Файл
@@ -61,6 +65,8 @@ struct Snapshot: Codable {
         s.trend = p?.milliamps ?? 0
         s.rating = adapterRating()
         s.percent = batteryPercent()
+        s.temperature = nil // датчик в SMC, песочнице он закрыт
+        s.cycles = cycleCount() ?? s.cycles
         s.remaining = cap.flatMap { timeLeft(milliamps: s.trend, now: $0.now, full: $0.full) }
         s.weak = nil // нужна минута наблюдения
         s.history = s.history.filter { Date.now.timeIntervalSince($0.date) < 3600 }
